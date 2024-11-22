@@ -1,0 +1,46 @@
+@import "colors";
+@import "text";
+
+.buttonPrimaryTextLight {
+  @extend .buttonText;
+  color: $textLight;
+  padding: 16px 36px;
+  border: none;
+  background-color: $buttonBgOrange;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: box-shadow 150ms ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 0 6px 1px $buttonWhiteStroke;
+  }
+
+}
+
+.buttonSecondaryTextDark {
+  @extend .buttonPrimaryTextLight;
+  background-color: transparent;
+  border: 1px solid $buttonWhiteStroke;
+}
+
+.buttonSecondaryIconLight {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  background-color: $buttonLight;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 3px 9px 0 $shadow;
+  cursor: pointer;
+
+  + label {
+    @extend .text;
+    color: $textDark;
+    margin-left: 16px;
+    cursor: pointer;
+  }
+
+}

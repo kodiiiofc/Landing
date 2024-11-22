@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+.h1 {
+  font-family: "Epilogue", serif;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 80px;
+  letter-spacing: -2px;
+  text-transform: capitalize;
+}
+
+.h2 {
+  font-family: "Epilogue", serif;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+}
+
+.h3 {
+  font-family: "Epilogue", serif;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0;
+}
+
+.h4 {
+  font-family: "Epilogue", serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+
+.h5 {
+  font-family: "Epilogue", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.label {
+  font-family: "Epilogue", serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0px;
+}
+
+.textBig {
+  font-family: "Epilogue", serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+
+.text {
+  font-family: "Epilogue", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+
+.textSmall {
+  font-family: "Epilogue", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+.buttonText {
+  font-family: "Epilogue", serif;
+  font-weight: 900;
+  font-size: 14px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
