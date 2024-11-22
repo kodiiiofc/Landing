@@ -9,7 +9,7 @@
   padding: 0;
 }
 
-.about {
+.title {
   @extend .section;
   background-color: $darkBgColor;
 
@@ -64,7 +64,7 @@
     justify-content: center;
     align-items: center;
     padding: 90px 0 100px 0;
-    gap: 60px;
+    gap: 64px;
   }
 
   &_label {
@@ -75,12 +75,12 @@
   &_header {
     @extend .h2;
     color: $textDark;
-    margin-top: -36px;
+    margin-top: -40px;
     max-width: 425px;
     text-align: center;
   }
 
-  &_cards_container {
+  &_cards-container {
     display: flex;
     flex-direction: row;
   }
@@ -137,3 +137,192 @@
   }
 }
 
+.portfolio {
+  @extend .section;
+  background-color: $darkBgColor;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 0 100px 0;
+
+  &_container {
+    @extend .wrapper;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0 0 64px 0;
+    gap: 24px;
+  }
+
+  &_label {
+    @extend .h5;
+    color: $textLightAccent;
+  }
+
+  &_header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &_title {
+      @extend .h2;
+      color: $textLight;
+    }
+
+    &_button {
+      @extend .buttonSecondaryTextDark;
+    }
+  }
+
+  &_cards-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid $borderOnDarkBg;
+    border-right: none;
+    padding: 16px;
+
+    &:last-of-type {
+      border: 1px solid $borderOnDarkBg;
+    }
+
+    &_image {
+      width: 448px;
+      height: 576px;
+    }
+
+    &_chip {
+      position: absolute;
+      top: 430px;
+      left: 64px;
+      background: $chipLight;
+      height: 38px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 3px 16px 0 16px;
+      border-radius: 19px;
+      color: $textDark;
+      @extend .text;
+    }
+
+    &_title {
+      @extend .h3;
+      color: $textLight;
+
+      position: absolute;
+      top: 500px;
+      left: 64px;
+    }
+  }
+}
+
+.about {
+  @extend .section;
+  background-color: $lightBgColor;
+
+  &_container {
+    @extend .wrapper;
+    padding: 200px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 174px;
+  }
+
+  &_main {
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+
+    &_textBox {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+      gap: 24px;
+
+      &_label {
+        @extend .h5;
+        color: $textLightAccent;
+      }
+
+      &_title {
+        @extend .h2;
+        color: $textDark;
+      }
+
+      &_subtitle {
+        @extend .textBig;
+        color: $textDark;
+      }
+
+      &_description {
+        @extend .text;
+        color: $textDarkGray;
+      }
+
+      &_button {
+        @extend .buttonSecondaryTextLight;
+      }
+    }
+  }
+
+  &_cards-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  &_card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding: 32px;
+    border: 1px solid $borderOnLightBg;
+    border-right: none;
+    width: 50%;
+
+    &:last-child {
+      border: 1px solid $borderOnLightBg;
+    }
+
+    &_image {
+      margin: 0 40px 0 16px;
+    }
+
+    &_textBox {
+
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: space-around;
+
+      &_title {
+        @extend .h3;
+        color: $textDark;
+      }
+
+      &_description {
+        @extend .textBig;
+        color: $textDark;
+      }
+
+    }
+  }
+
+}

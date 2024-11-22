@@ -6,22 +6,32 @@
   color: $textLight;
   padding: 16px 36px;
   border: none;
-  background-color: $buttonBgOrange;
+  background-color: $buttonOrange;
   border-radius: 6px;
   box-sizing: border-box;
   transition: box-shadow 150ms ease-in-out;
 
   &:hover {
     cursor: pointer;
-    box-shadow: 0 0 6px 1px $buttonWhiteStroke;
+    box-shadow: 0 0 6px 1px $buttonGrayStroke;
   }
+}
 
+.buttonSecondaryTextLight {
+  @extend .buttonPrimaryTextLight;
+  background-color: $buttonLight;
+  color: $textDark;
+  box-shadow: 0 3px 9px 0 $shadow;
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 6px 0 $shadow;
+  }
 }
 
 .buttonSecondaryTextDark {
   @extend .buttonPrimaryTextLight;
   background-color: transparent;
-  border: 1px solid $buttonWhiteStroke;
+  border: 1px solid $buttonGrayStroke;
 }
 
 .buttonSecondaryIconLight {
