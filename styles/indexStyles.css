@@ -11,7 +11,7 @@
   text-transform: capitalize;
 }
 
-.h2, .about_main_textBox_title, .portfolio_header_title, .service_header {
+.h2, .testimonials_title, .features_textBox_title, .about_main_textBox_title, .portfolio_header_title, .service_header {
   font-family: "Epilogue", serif;
   font-weight: 800;
   font-size: 56px;
@@ -28,15 +28,16 @@
   letter-spacing: 0;
 }
 
-.h4, .service_card_header_text, .header_logo {
+.h4, .testimonials_card_profile_text_name, .getStarted_textBox_title, .service_card_header_text, .header_logo {
   font-family: "Epilogue", serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0;
+  text-transform: capitalize;
 }
 
-.h5, .about_main_textBox_label, .portfolio_label, .service_label, .title_textBox_label {
+.h5, .testimonials_label, .getStarted_textBox_label, .features_textBox_label, .about_main_textBox_label, .portfolio_label, .service_label, .title_textBox_label {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 16px;
@@ -52,7 +53,7 @@
   letter-spacing: 0px;
 }
 
-.textBig, .about_card_textBox_description, .about_main_textBox_subtitle {
+.textBig, .features_textBox_subtitle, .about_card_textBox_description, .about_main_textBox_subtitle {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 20px;
@@ -60,7 +61,7 @@
   letter-spacing: 0;
 }
 
-.text, .about_main_textBox_description, .portfolio_card_chip, .service_footer_text, .service_card_description, .title_textBox_description, .header_menu, .buttonSecondaryIconLight + label, .service_card_footer_button + label {
+.text, .testimonials_card_profile_text_company, .testimonials_card_text, .getStarted_description, .features_textBox_list li, .about_main_textBox_description, .portfolio_card_chip, .service_footer_text, .service_card_description, .title_textBox_description, .header_menu, .buttonSecondaryIconLight + label, .service_card_footer_button + label {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 16px;
@@ -76,7 +77,7 @@
   letter-spacing: 0;
 }
 
-.buttonText, .buttonPrimaryTextLight, .title_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton, .buttonSecondaryTextLight, .about_main_textBox_button {
+.buttonText, .buttonPrimaryTextLight, .getStarted_textBox_button, .title_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton, .buttonSecondaryTextLight, .testimonials_button, .about_main_textBox_button {
   font-family: "Epilogue", serif;
   font-weight: 900;
   font-size: 14px;
@@ -92,18 +93,19 @@ a:hover {
   cursor: pointer;
 }
 
-.wrapper, .about_container, .portfolio_container, .service_container, .title_container, .header_container {
+.wrapper, .testimonials_container, .getStarted_container, .features_container, .about_container, .portfolio_container, .service_container, .title_container, .header_container {
   width: 1170px;
   margin: 0 auto;
 }
 @media (max-width: 1440px) {
-  .wrapper, .about_container, .portfolio_container, .service_container, .title_container, .header_container {
+  .wrapper, .testimonials_container, .getStarted_container, .features_container, .about_container, .portfolio_container, .service_container, .title_container, .header_container {
+    max-width: 1170px;
     width: 100%;
-    margin: 0 20px;
+    margin: 0 auto;
   }
 }
 
-.section, .about, .portfolio, .service, .title, .header {
+.section, .testimonials, .getStarted, .features, .about, .portfolio, .service, .title, .header {
   width: 100%;
   margin: 0 auto;
 }
@@ -117,7 +119,7 @@ a:hover {
   text-transform: capitalize;
 }
 
-.h2, .about_main_textBox_title, .portfolio_header_title, .service_header {
+.h2, .testimonials_title, .features_textBox_title, .about_main_textBox_title, .portfolio_header_title, .service_header {
   font-family: "Epilogue", serif;
   font-weight: 800;
   font-size: 56px;
@@ -134,15 +136,16 @@ a:hover {
   letter-spacing: 0;
 }
 
-.h4, .service_card_header_text, .header_logo {
+.h4, .testimonials_card_profile_text_name, .getStarted_textBox_title, .service_card_header_text, .header_logo {
   font-family: "Epilogue", serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0;
+  text-transform: capitalize;
 }
 
-.h5, .about_main_textBox_label, .portfolio_label, .service_label, .title_textBox_label {
+.h5, .testimonials_label, .getStarted_textBox_label, .features_textBox_label, .about_main_textBox_label, .portfolio_label, .service_label, .title_textBox_label {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 16px;
@@ -158,7 +161,7 @@ a:hover {
   letter-spacing: 0px;
 }
 
-.textBig, .about_card_textBox_description, .about_main_textBox_subtitle {
+.textBig, .features_textBox_subtitle, .about_card_textBox_description, .about_main_textBox_subtitle {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 20px;
@@ -166,7 +169,7 @@ a:hover {
   letter-spacing: 0;
 }
 
-.text, .about_main_textBox_description, .portfolio_card_chip, .service_footer_text, .service_card_description, .title_textBox_description, .header_menu, .buttonSecondaryIconLight + label, .service_card_footer_button + label {
+.text, .testimonials_card_profile_text_company, .testimonials_card_text, .getStarted_description, .features_textBox_list li, .about_main_textBox_description, .portfolio_card_chip, .service_footer_text, .service_card_description, .title_textBox_description, .header_menu, .buttonSecondaryIconLight + label, .service_card_footer_button + label {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 16px;
@@ -182,7 +185,7 @@ a:hover {
   letter-spacing: 0;
 }
 
-.buttonText, .buttonPrimaryTextLight, .title_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton, .buttonSecondaryTextLight, .about_main_textBox_button {
+.buttonText, .buttonPrimaryTextLight, .getStarted_textBox_button, .title_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton, .buttonSecondaryTextLight, .testimonials_button, .about_main_textBox_button {
   font-family: "Epilogue", serif;
   font-weight: 900;
   font-size: 14px;
@@ -198,7 +201,7 @@ a:hover {
   cursor: pointer;
 }
 
-.buttonPrimaryTextLight, .title_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton, .buttonSecondaryTextLight, .about_main_textBox_button {
+.buttonPrimaryTextLight, .getStarted_textBox_button, .title_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton, .buttonSecondaryTextLight, .testimonials_button, .about_main_textBox_button {
   color: #FFFFFF;
   padding: 16px 36px;
   border: none;
@@ -207,17 +210,17 @@ a:hover {
   box-sizing: border-box;
   transition: box-shadow 150ms ease-in-out;
 }
-.buttonPrimaryTextLight:hover, .title_textBox_button:hover, .buttonSecondaryTextDark:hover, .portfolio_header_button:hover, .header_contactButton:hover, .buttonSecondaryTextLight:hover, .about_main_textBox_button:hover {
+.buttonPrimaryTextLight:hover, .getStarted_textBox_button:hover, .title_textBox_button:hover, .buttonSecondaryTextDark:hover, .portfolio_header_button:hover, .header_contactButton:hover, .buttonSecondaryTextLight:hover, .testimonials_button:hover, .about_main_textBox_button:hover {
   cursor: pointer;
   box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.3);
 }
 
-.buttonSecondaryTextLight, .about_main_textBox_button {
+.buttonSecondaryTextLight, .testimonials_button, .about_main_textBox_button {
   background-color: #FFFFFF;
   color: #391400;
   box-shadow: 0 3px 9px 0 rgba(57, 20, 0, 0.08);
 }
-.buttonSecondaryTextLight:hover, .about_main_textBox_button:hover {
+.buttonSecondaryTextLight:hover, .testimonials_button:hover, .about_main_textBox_button:hover {
   cursor: pointer;
   box-shadow: 0 2px 6px 0 rgba(57, 20, 0, 0.08);
 }
@@ -254,7 +257,7 @@ a:hover {
   text-transform: capitalize;
 }
 
-.h2, .about_main_textBox_title, .portfolio_header_title, .service_header {
+.h2, .testimonials_title, .features_textBox_title, .about_main_textBox_title, .portfolio_header_title, .service_header {
   font-family: "Epilogue", serif;
   font-weight: 800;
   font-size: 56px;
@@ -271,15 +274,16 @@ a:hover {
   letter-spacing: 0;
 }
 
-.h4, .service_card_header_text, .header_logo {
+.h4, .testimonials_card_profile_text_name, .getStarted_textBox_title, .service_card_header_text, .header_logo {
   font-family: "Epilogue", serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0;
+  text-transform: capitalize;
 }
 
-.h5, .about_main_textBox_label, .portfolio_label, .service_label, .title_textBox_label {
+.h5, .testimonials_label, .getStarted_textBox_label, .features_textBox_label, .about_main_textBox_label, .portfolio_label, .service_label, .title_textBox_label {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 16px;
@@ -295,7 +299,7 @@ a:hover {
   letter-spacing: 0px;
 }
 
-.textBig, .about_card_textBox_description, .about_main_textBox_subtitle {
+.textBig, .features_textBox_subtitle, .about_card_textBox_description, .about_main_textBox_subtitle {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 20px;
@@ -303,7 +307,7 @@ a:hover {
   letter-spacing: 0;
 }
 
-.text, .about_main_textBox_description, .portfolio_card_chip, .service_footer_text, .service_card_description, .title_textBox_description, .header_menu, .buttonSecondaryIconLight + label, .service_card_footer_button + label {
+.text, .testimonials_card_profile_text_company, .testimonials_card_text, .getStarted_description, .features_textBox_list li, .about_main_textBox_description, .portfolio_card_chip, .service_footer_text, .service_card_description, .title_textBox_description, .header_menu, .buttonSecondaryIconLight + label, .service_card_footer_button + label {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 16px;
@@ -319,7 +323,7 @@ a:hover {
   letter-spacing: 0;
 }
 
-.buttonText, .buttonPrimaryTextLight, .title_textBox_button, .buttonSecondaryTextLight, .about_main_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton {
+.buttonText, .buttonPrimaryTextLight, .getStarted_textBox_button, .title_textBox_button, .buttonSecondaryTextLight, .testimonials_button, .about_main_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton {
   font-family: "Epilogue", serif;
   font-weight: 900;
   font-size: 14px;
@@ -335,18 +339,19 @@ a:hover {
   cursor: pointer;
 }
 
-.wrapper, .about_container, .portfolio_container, .service_container, .title_container, .header_container {
+.wrapper, .testimonials_container, .getStarted_container, .features_container, .about_container, .portfolio_container, .service_container, .title_container, .header_container {
   width: 1170px;
   margin: 0 auto;
 }
 @media (max-width: 1440px) {
-  .wrapper, .about_container, .portfolio_container, .service_container, .title_container, .header_container {
+  .wrapper, .testimonials_container, .getStarted_container, .features_container, .about_container, .portfolio_container, .service_container, .title_container, .header_container {
+    max-width: 1170px;
     width: 100%;
-    margin: 0 20px;
+    margin: 0 auto;
   }
 }
 
-.section, .about, .portfolio, .service, .title, .header {
+.section, .testimonials, .getStarted, .features, .about, .portfolio, .service, .title, .header {
   width: 100%;
   margin: 0 auto;
 }
@@ -360,7 +365,7 @@ a:hover {
   text-transform: capitalize;
 }
 
-.h2, .about_main_textBox_title, .portfolio_header_title, .service_header {
+.h2, .testimonials_title, .features_textBox_title, .about_main_textBox_title, .portfolio_header_title, .service_header {
   font-family: "Epilogue", serif;
   font-weight: 800;
   font-size: 56px;
@@ -377,15 +382,16 @@ a:hover {
   letter-spacing: 0;
 }
 
-.h4, .service_card_header_text, .header_logo {
+.h4, .testimonials_card_profile_text_name, .getStarted_textBox_title, .service_card_header_text, .header_logo {
   font-family: "Epilogue", serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0;
+  text-transform: capitalize;
 }
 
-.h5, .about_main_textBox_label, .portfolio_label, .service_label, .title_textBox_label {
+.h5, .testimonials_label, .getStarted_textBox_label, .features_textBox_label, .about_main_textBox_label, .portfolio_label, .service_label, .title_textBox_label {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 16px;
@@ -401,7 +407,7 @@ a:hover {
   letter-spacing: 0px;
 }
 
-.textBig, .about_card_textBox_description, .about_main_textBox_subtitle {
+.textBig, .features_textBox_subtitle, .about_card_textBox_description, .about_main_textBox_subtitle {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 20px;
@@ -409,7 +415,7 @@ a:hover {
   letter-spacing: 0;
 }
 
-.text, .about_main_textBox_description, .portfolio_card_chip, .service_footer_text, .service_card_description, .title_textBox_description, .header_menu, .buttonSecondaryIconLight + label, .service_card_footer_button + label {
+.text, .testimonials_card_profile_text_company, .testimonials_card_text, .getStarted_description, .features_textBox_list li, .about_main_textBox_description, .portfolio_card_chip, .service_footer_text, .service_card_description, .title_textBox_description, .header_menu, .buttonSecondaryIconLight + label, .service_card_footer_button + label {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 16px;
@@ -425,7 +431,7 @@ a:hover {
   letter-spacing: 0;
 }
 
-.buttonText, .buttonPrimaryTextLight, .title_textBox_button, .buttonSecondaryTextLight, .about_main_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton {
+.buttonText, .buttonPrimaryTextLight, .getStarted_textBox_button, .title_textBox_button, .buttonSecondaryTextLight, .testimonials_button, .about_main_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton {
   font-family: "Epilogue", serif;
   font-weight: 900;
   font-size: 14px;
@@ -441,7 +447,7 @@ a:hover {
   cursor: pointer;
 }
 
-.buttonPrimaryTextLight, .title_textBox_button, .buttonSecondaryTextLight, .about_main_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton {
+.buttonPrimaryTextLight, .getStarted_textBox_button, .title_textBox_button, .buttonSecondaryTextLight, .testimonials_button, .about_main_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton {
   color: #FFFFFF;
   padding: 16px 36px;
   border: none;
@@ -450,17 +456,17 @@ a:hover {
   box-sizing: border-box;
   transition: box-shadow 150ms ease-in-out;
 }
-.buttonPrimaryTextLight:hover, .title_textBox_button:hover, .buttonSecondaryTextLight:hover, .about_main_textBox_button:hover, .buttonSecondaryTextDark:hover, .portfolio_header_button:hover, .header_contactButton:hover {
+.buttonPrimaryTextLight:hover, .getStarted_textBox_button:hover, .title_textBox_button:hover, .buttonSecondaryTextLight:hover, .testimonials_button:hover, .about_main_textBox_button:hover, .buttonSecondaryTextDark:hover, .portfolio_header_button:hover, .header_contactButton:hover {
   cursor: pointer;
   box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.3);
 }
 
-.buttonSecondaryTextLight, .about_main_textBox_button {
+.buttonSecondaryTextLight, .testimonials_button, .about_main_textBox_button {
   background-color: #FFFFFF;
   color: #391400;
   box-shadow: 0 3px 9px 0 rgba(57, 20, 0, 0.08);
 }
-.buttonSecondaryTextLight:hover, .about_main_textBox_button:hover {
+.buttonSecondaryTextLight:hover, .testimonials_button:hover, .about_main_textBox_button:hover {
   cursor: pointer;
   box-shadow: 0 2px 6px 0 rgba(57, 20, 0, 0.08);
 }
@@ -744,6 +750,164 @@ a:hover {
   color: #391400;
 }
 .about_card_textBox_description {
+  color: #391400;
+}
+
+.features {
+  background-color: #28293E;
+}
+.features_container {
+  display: flex;
+  flex-direction: row;
+  padding: 150px 0 150px 0;
+}
+.features_textBox {
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+.features_textBox_label {
+  color: #EF6D58;
+}
+.features_textBox_title {
+  color: #FFFFFF;
+  max-width: 400px;
+}
+.features_textBox_subtitle {
+  color: #FFFFFF;
+}
+.features_textBox_list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.features_textBox_list li {
+  display: flex;
+  height: 36px;
+  color: rgba(255, 255, 255, 0.64);
+  list-style-type: none;
+  vertical-align: middle;
+  justify-content: start;
+  align-items: center;
+}
+.features_textBox_list li::before {
+  display: inline-flex;
+  content: url("../src/check.png");
+  height: 36px;
+  margin-right: 16px;
+  align-items: center;
+}
+
+.getStarted {
+  background-color: #F9E5DA;
+}
+.getStarted_container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 48px 0 48px 0;
+  justify-content: space-between;
+}
+.getStarted_sticker {
+  position: absolute;
+  top: -73px;
+}
+.getStarted_textBox {
+  width: 33%;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.getStarted_textBox_label {
+  color: #EF6D58;
+}
+.getStarted_textBox_title {
+  color: #391400;
+  margin-top: -10px;
+  max-width: 220px;
+}
+.getStarted_description {
+  color: rgba(57, 20, 0, 0.64);
+  max-width: 370px;
+}
+
+.testimonials {
+  background-color: #FDF0E9;
+}
+.testimonials_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0 90px 0;
+  gap: 64px;
+}
+.testimonials_label {
+  color: #EF6D58;
+}
+.testimonials_title {
+  color: #391400;
+  margin-top: -44px;
+  max-width: 400px;
+  text-align: center;
+}
+.testimonials_cards-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+.testimonials_card {
+  position: relative;
+  z-index: 0;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  border: 1px solid #F3D1BF;
+  padding: 48px;
+  gap: 64px;
+  transform-origin: top center;
+  transition: scale 500ms ease-in-out, background-color 200ms ease-in-out, border 0ms linear;
+}
+.testimonials_card:last-of-type {
+  border: 1px solid #F3D1BF;
+}
+.testimonials_card:hover {
+  border: 1px solid #F3D1BF;
+  scale: 1.05;
+  background-color: white;
+  z-index: 1;
+}
+.testimonials_card_rating {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.testimonials_card_text {
+  color: rgba(57, 20, 0, 0.64);
+  margin-top: -28px;
+}
+.testimonials_card_profile {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.testimonials_card_profile_text {
+  display: flex;
+  flex-direction: column;
+}
+.testimonials_card_profile_text_name {
+  color: #391400;
+}
+.testimonials_card_profile_text_company {
   color: #391400;
 }
 

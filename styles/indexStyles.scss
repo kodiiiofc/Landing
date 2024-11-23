@@ -326,3 +326,216 @@
   }
 
 }
+
+.features {
+  @extend .section;
+  background-color: $darkBgColor;
+
+  &_container {
+    @extend .wrapper;
+    display: flex;
+    flex-direction: row;
+    padding: 150px 0 150px 0;
+  }
+
+  &_textBox {
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+
+    &_label {
+      @extend .h5;
+      color: $textLightAccent;
+    }
+
+    &_title {
+      @extend .h2;
+      color: $textLight;
+      max-width: 400px;
+    }
+
+    &_subtitle {
+      @extend .textBig;
+      color: $textLight;
+    }
+
+    &_list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      li {
+        display: flex;
+        height: 36px;
+        @extend .text;
+        color: $textLightGray;
+        list-style-type: none;
+        vertical-align: middle;
+        justify-content: start;
+        align-items: center;
+
+        &::before {
+          display: inline-flex;
+          content: url("../src/check.png");
+          height: 36px;
+          margin-right: 16px;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+
+.getStarted {
+  @extend .section;
+  background-color: $lightGrayBgColor;
+
+  &_container {
+    position: relative;
+    @extend .wrapper;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 48px 0 48px 0;
+    justify-content: space-between;
+  }
+
+  &_sticker {
+    position: absolute;
+    top: calc(-146px / 2);
+  }
+
+  &_textBox {
+    width: 33%;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    &_label {
+      @extend .h5;
+      color: $textLightAccent;
+    }
+
+    &_title {
+      @extend .h4;
+      color: $textDark;
+      margin-top: -10px;
+      max-width: 220px;
+    }
+
+    &_button {
+      @extend .buttonPrimaryTextLight;
+    }
+  }
+  &_description {
+    @extend .text;
+    color: $textDarkGray;
+    max-width: 370px;
+  }
+}
+
+.testimonials {
+  @extend .section;
+  background-color: $lightBgColor;
+
+  &_container {
+    @extend .wrapper;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 90px 0;
+    gap: 64px;
+  }
+
+  &_label {
+    @extend .h5;
+    color: $textLightAccent;
+  }
+
+  &_title {
+    @extend .h2;
+    color: $textDark;
+    margin-top: -44px;
+    max-width: 400px;
+    text-align: center;
+  }
+
+  &_cards-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+  }
+
+  &_card {
+    position: relative;
+    z-index: 0;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border: 1px solid $borderOnLightBg;
+    padding: 48px;
+    gap: 64px;
+    transform-origin: top center;
+    transition: scale 500ms ease-in-out,
+    background-color 200ms ease-in-out,
+    border 0ms linear;
+
+    &:last-of-type {
+      border: 1px solid $borderOnLightBg;
+    }
+
+    &:hover {
+      border: 1px solid $borderOnLightBg;
+      scale: 1.05;
+      background-color: white;
+      z-index: 1;
+    }
+
+    &_rating {
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+    }
+
+    &_text {
+      @extend .text;
+      color: $textDarkGray;
+      margin-top: -28px;
+    }
+
+    &_profile {
+      display: flex;
+      flex-direction: row;
+      gap: 24px;
+      justify-content: flex-start;
+      align-items: center;
+
+      &_text {
+        display: flex;
+        flex-direction: column;
+
+        &_name {
+          @extend .h4;
+          color: $textDark
+        }
+
+        &_company {
+          @extend .text;
+          color: $textDark;
+        }
+
+      }
+    }
+  }
+
+  &_button {
+    @extend .buttonSecondaryTextLight;
+  }
+}
