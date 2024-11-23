@@ -431,6 +431,7 @@
       @extend .buttonPrimaryTextLight;
     }
   }
+
   &_description {
     @extend .text;
     color: $textDarkGray;
@@ -537,5 +538,178 @@
 
   &_button {
     @extend .buttonSecondaryTextLight;
+  }
+}
+
+.faq {
+  @extend .section;
+  background-color: $darkBgColor;
+
+  &_container {
+    @extend .wrapper;
+    display: flex;
+    flex-direction: column;
+    padding: 140px 0 128px 0;
+    gap: 120px
+  }
+
+  &_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    &_textBox {
+      width: 50%;
+      padding-right: 130px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      &_label {
+        @extend .h5;
+        color: $textLightAccent;
+      }
+
+      &_title {
+        @extend .h3;
+        color: $textLight;
+        margin-top: -15px;
+      }
+
+      &_description {
+        @extend .text;
+        color: $textLightGray;
+      }
+
+      &_contact {
+        @extend .text;
+        color: $textLight;
+      }
+    }
+
+    &_list {
+      width: 50%;
+      border: 1px solid $borderOnDarkBg;
+      border-radius: 6px;
+
+      &_item {
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+
+        &:first-of-type {
+          border-top-left-radius: 6px;
+          border-top-right-radius: 6px;
+        }
+
+        &:last-of-type {
+          border-bottom-left-radius: 6px;
+          border-bottom-right-radius: 6px;
+
+          &::after {
+            background-color: transparent;
+            height: 0;
+          }
+
+        }
+
+        &::after {
+          content: "";
+          display: block;
+          height: 1px;
+          background-color: $borderOnDarkBg;
+        }
+
+        &_title {
+
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          padding: 40px 48px;
+
+          &::after {
+            content: url("../src/arrow_down.png");
+          }
+
+          &_text {
+            @extend .h4;
+            color: $textLight;
+          }
+
+        }
+
+        &_content {
+          @extend .text;
+          color: $textDarkGray;
+          display: none;
+        }
+
+        &_active {
+          display: flex;
+          flex-direction: column;
+          background-color: white;
+
+          &:first-of-type {
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+          }
+
+          &:last-of-type {
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+
+            &::after {
+              background-color: transparent;
+              height: 0;
+            }
+
+          }
+
+          &::after {
+            content: "";
+            display: block;
+            height: 1px;
+            background-color: $borderOnDarkBg;
+          }
+
+          &_title {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px 48px;
+
+            &::after {
+              content: url("../src/arrow_up.png");
+            }
+
+            &_text {
+              @extend .h4;
+              color: $textDark;
+            }
+
+          }
+
+          &_content {
+            @extend .text;
+            color: $textDarkGray;
+            padding: 0 48px 40px 48px;
+            display: block;
+          }
+        }
+
+      }
+
+    }
+  }
+
+  &_companies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 }
