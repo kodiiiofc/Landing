@@ -3,8 +3,9 @@
 
 .buttonPrimaryTextLight {
   @extend .buttonText;
+  height: 48px;
   color: $textLight;
-  padding: 16px 36px;
+  padding: 17px 36px 15px 36px;
   border: none;
   background-color: $buttonOrange;
   border-radius: 6px;

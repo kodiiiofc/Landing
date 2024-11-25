@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
 .h1, .title_textBox_header {
   font-family: "Epilogue", serif;
   font-weight: 800;
@@ -11,7 +12,7 @@
   text-transform: capitalize;
 }
 
-.h2, .testimonials_title, .features_textBox_title, .about_main_textBox_title, .portfolio_header_title, .service_header {
+.h2, .ourBlog_header_textBox_title, .testimonials_title, .features_textBox_title, .about_main_textBox_title, .portfolio_header_title, .service_header {
   font-family: "Epilogue", serif;
   font-weight: 800;
   font-size: 56px;
@@ -20,7 +21,7 @@
   text-transform: capitalize;
 }
 
-.h3, .faq_main_textBox_title, .about_card_textBox_title, .portfolio_card_title {
+.h3, .ourBlog_content_mainPost_header, .faq_main_textBox_title, .about_card_textBox_title, .portfolio_card_title {
   font-family: "Epilogue", serif;
   font-weight: 800;
   font-size: 40px;
@@ -28,7 +29,7 @@
   letter-spacing: 0;
 }
 
-.h4, .faq_main_list_item_active_title_text, .faq_main_list_item_title_text, .testimonials_card_profile_text_name, .getStarted_textBox_title, .service_card_header_text, .header_logo {
+.h4, .ourBlog_footer_textBox_header, .ourBlog_content_post_header, .faq_main_list_item_active_title_text, .faq_main_list_item_title_text, .testimonials_card_profile_text_name, .getStarted_textBox_title, .service_card_header_text, .header_logo {
   font-family: "Epilogue", serif;
   font-weight: 700;
   font-size: 24px;
@@ -37,7 +38,7 @@
   text-transform: capitalize;
 }
 
-.h5, .faq_main_textBox_label, .testimonials_label, .getStarted_textBox_label, .features_textBox_label, .about_main_textBox_label, .portfolio_label, .service_label, .title_textBox_label {
+.h5, .ourBlog_header_textBox_label, .faq_main_textBox_label, .testimonials_label, .getStarted_textBox_label, .features_textBox_label, .about_main_textBox_label, .portfolio_label, .service_label, .title_textBox_label {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 16px;
@@ -53,7 +54,7 @@
   letter-spacing: 0px;
 }
 
-.textBig, .features_textBox_subtitle, .about_card_textBox_description, .about_main_textBox_subtitle {
+.textBig, .ourBlog_content_mainPost_theme, .ourBlog_content_post_theme, .features_textBox_subtitle, .about_card_textBox_description, .about_main_textBox_subtitle {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 20px;
@@ -61,7 +62,7 @@
   letter-spacing: 0;
 }
 
-.text, .faq_main_list_item_active_content, .faq_main_list_item_content, .faq_main_textBox_contact, .faq_main_textBox_description, .testimonials_card_profile_text_company, .testimonials_card_text, .getStarted_description, .features_textBox_list li, .about_main_textBox_description, .portfolio_card_chip, .service_footer_text, .service_card_description, .title_textBox_description, .header_menu, .buttonSecondaryIconLight + label, .service_card_footer_button + label {
+.text, .ourBlog_footer_textBox_description, .ourBlog_content_mainPost_date, .ourBlog_content_post_date, .faq_main_list_item_active_content, .faq_main_list_item_content, .faq_main_textBox_contact, .faq_main_textBox_description, .testimonials_card_profile_text_company, .testimonials_card_text, .getStarted_description, .features_textBox_list li, .about_main_textBox_description, .portfolio_card_chip, .service_footer_text, .service_card_description, .title_textBox_description, .fieldLight, .ourBlog_footer_emailForm_input, .header_menu, .buttonSecondaryIconLight + label, .service_card_footer_button + label {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 16px;
@@ -77,7 +78,7 @@
   letter-spacing: 0;
 }
 
-.buttonText, .buttonPrimaryTextLight, .getStarted_textBox_button, .title_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton, .buttonSecondaryTextLight, .testimonials_button, .about_main_textBox_button {
+.buttonText, .buttonPrimaryTextLight, .getStarted_textBox_button, .title_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton, .buttonSecondaryTextLight, .ourBlog_footer_emailForm_button, .ourBlog_header_button, .testimonials_button, .about_main_textBox_button {
   font-family: "Epilogue", serif;
   font-weight: 900;
   font-size: 14px;
@@ -93,19 +94,19 @@ a:hover {
   cursor: pointer;
 }
 
-.wrapper, .faq_container, .testimonials_container, .getStarted_container, .features_container, .about_container, .portfolio_container, .service_container, .title_container, .header_container {
+.wrapper, .ourBlog_container, .faq_container, .testimonials_container, .getStarted_container, .features_container, .about_container, .portfolio_container, .service_container, .title_container, .header_container {
   width: 1170px;
   margin: 0 auto;
 }
 @media (max-width: 1440px) {
-  .wrapper, .faq_container, .testimonials_container, .getStarted_container, .features_container, .about_container, .portfolio_container, .service_container, .title_container, .header_container {
+  .wrapper, .ourBlog_container, .faq_container, .testimonials_container, .getStarted_container, .features_container, .about_container, .portfolio_container, .service_container, .title_container, .header_container {
     max-width: 1170px;
     width: 100%;
     margin: 0 auto;
   }
 }
 
-.section, .faq, .testimonials, .getStarted, .features, .about, .portfolio, .service, .title, .header {
+.section, .ourBlog, .faq, .testimonials, .getStarted, .features, .about, .portfolio, .service, .title, .header {
   width: 100%;
   margin: 0 auto;
 }
@@ -119,7 +120,7 @@ a:hover {
   text-transform: capitalize;
 }
 
-.h2, .testimonials_title, .features_textBox_title, .about_main_textBox_title, .portfolio_header_title, .service_header {
+.h2, .ourBlog_header_textBox_title, .testimonials_title, .features_textBox_title, .about_main_textBox_title, .portfolio_header_title, .service_header {
   font-family: "Epilogue", serif;
   font-weight: 800;
   font-size: 56px;
@@ -128,7 +129,7 @@ a:hover {
   text-transform: capitalize;
 }
 
-.h3, .faq_main_textBox_title, .about_card_textBox_title, .portfolio_card_title {
+.h3, .ourBlog_content_mainPost_header, .faq_main_textBox_title, .about_card_textBox_title, .portfolio_card_title {
   font-family: "Epilogue", serif;
   font-weight: 800;
   font-size: 40px;
@@ -136,7 +137,7 @@ a:hover {
   letter-spacing: 0;
 }
 
-.h4, .faq_main_list_item_active_title_text, .faq_main_list_item_title_text, .testimonials_card_profile_text_name, .getStarted_textBox_title, .service_card_header_text, .header_logo {
+.h4, .ourBlog_footer_textBox_header, .ourBlog_content_post_header, .faq_main_list_item_active_title_text, .faq_main_list_item_title_text, .testimonials_card_profile_text_name, .getStarted_textBox_title, .service_card_header_text, .header_logo {
   font-family: "Epilogue", serif;
   font-weight: 700;
   font-size: 24px;
@@ -145,7 +146,7 @@ a:hover {
   text-transform: capitalize;
 }
 
-.h5, .faq_main_textBox_label, .testimonials_label, .getStarted_textBox_label, .features_textBox_label, .about_main_textBox_label, .portfolio_label, .service_label, .title_textBox_label {
+.h5, .ourBlog_header_textBox_label, .faq_main_textBox_label, .testimonials_label, .getStarted_textBox_label, .features_textBox_label, .about_main_textBox_label, .portfolio_label, .service_label, .title_textBox_label {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 16px;
@@ -161,7 +162,7 @@ a:hover {
   letter-spacing: 0px;
 }
 
-.textBig, .features_textBox_subtitle, .about_card_textBox_description, .about_main_textBox_subtitle {
+.textBig, .ourBlog_content_mainPost_theme, .ourBlog_content_post_theme, .features_textBox_subtitle, .about_card_textBox_description, .about_main_textBox_subtitle {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 20px;
@@ -169,7 +170,7 @@ a:hover {
   letter-spacing: 0;
 }
 
-.text, .faq_main_list_item_active_content, .faq_main_list_item_content, .faq_main_textBox_contact, .faq_main_textBox_description, .testimonials_card_profile_text_company, .testimonials_card_text, .getStarted_description, .features_textBox_list li, .about_main_textBox_description, .portfolio_card_chip, .service_footer_text, .service_card_description, .title_textBox_description, .header_menu, .buttonSecondaryIconLight + label, .service_card_footer_button + label {
+.text, .ourBlog_footer_textBox_description, .ourBlog_content_mainPost_date, .ourBlog_content_post_date, .faq_main_list_item_active_content, .faq_main_list_item_content, .faq_main_textBox_contact, .faq_main_textBox_description, .testimonials_card_profile_text_company, .testimonials_card_text, .getStarted_description, .features_textBox_list li, .about_main_textBox_description, .portfolio_card_chip, .service_footer_text, .service_card_description, .title_textBox_description, .fieldLight, .ourBlog_footer_emailForm_input, .header_menu, .buttonSecondaryIconLight + label, .service_card_footer_button + label {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 16px;
@@ -185,7 +186,7 @@ a:hover {
   letter-spacing: 0;
 }
 
-.buttonText, .buttonPrimaryTextLight, .getStarted_textBox_button, .title_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton, .buttonSecondaryTextLight, .testimonials_button, .about_main_textBox_button {
+.buttonText, .buttonPrimaryTextLight, .getStarted_textBox_button, .title_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton, .buttonSecondaryTextLight, .ourBlog_footer_emailForm_button, .ourBlog_header_button, .testimonials_button, .about_main_textBox_button {
   font-family: "Epilogue", serif;
   font-weight: 900;
   font-size: 14px;
@@ -201,26 +202,27 @@ a:hover {
   cursor: pointer;
 }
 
-.buttonPrimaryTextLight, .getStarted_textBox_button, .title_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton, .buttonSecondaryTextLight, .testimonials_button, .about_main_textBox_button {
+.buttonPrimaryTextLight, .getStarted_textBox_button, .title_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton, .buttonSecondaryTextLight, .ourBlog_footer_emailForm_button, .ourBlog_header_button, .testimonials_button, .about_main_textBox_button {
+  height: 48px;
   color: #FFFFFF;
-  padding: 16px 36px;
+  padding: 17px 36px 15px 36px;
   border: none;
   background-color: #EF6D58;
   border-radius: 6px;
   box-sizing: border-box;
   transition: box-shadow 150ms ease-in-out;
 }
-.buttonPrimaryTextLight:hover, .getStarted_textBox_button:hover, .title_textBox_button:hover, .buttonSecondaryTextDark:hover, .portfolio_header_button:hover, .header_contactButton:hover, .buttonSecondaryTextLight:hover, .testimonials_button:hover, .about_main_textBox_button:hover {
+.buttonPrimaryTextLight:hover, .getStarted_textBox_button:hover, .title_textBox_button:hover, .buttonSecondaryTextDark:hover, .portfolio_header_button:hover, .header_contactButton:hover, .buttonSecondaryTextLight:hover, .ourBlog_footer_emailForm_button:hover, .ourBlog_header_button:hover, .testimonials_button:hover, .about_main_textBox_button:hover {
   cursor: pointer;
   box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.3);
 }
 
-.buttonSecondaryTextLight, .testimonials_button, .about_main_textBox_button {
+.buttonSecondaryTextLight, .ourBlog_footer_emailForm_button, .ourBlog_header_button, .testimonials_button, .about_main_textBox_button {
   background-color: #FFFFFF;
   color: #391400;
   box-shadow: 0 3px 9px 0 rgba(57, 20, 0, 0.08);
 }
-.buttonSecondaryTextLight:hover, .testimonials_button:hover, .about_main_textBox_button:hover {
+.buttonSecondaryTextLight:hover, .ourBlog_footer_emailForm_button:hover, .ourBlog_header_button:hover, .testimonials_button:hover, .about_main_textBox_button:hover {
   cursor: pointer;
   box-shadow: 0 2px 6px 0 rgba(57, 20, 0, 0.08);
 }
@@ -257,7 +259,7 @@ a:hover {
   text-transform: capitalize;
 }
 
-.h2, .testimonials_title, .features_textBox_title, .about_main_textBox_title, .portfolio_header_title, .service_header {
+.h2, .ourBlog_header_textBox_title, .testimonials_title, .features_textBox_title, .about_main_textBox_title, .portfolio_header_title, .service_header {
   font-family: "Epilogue", serif;
   font-weight: 800;
   font-size: 56px;
@@ -266,7 +268,7 @@ a:hover {
   text-transform: capitalize;
 }
 
-.h3, .faq_main_textBox_title, .about_card_textBox_title, .portfolio_card_title {
+.h3, .ourBlog_content_mainPost_header, .faq_main_textBox_title, .about_card_textBox_title, .portfolio_card_title {
   font-family: "Epilogue", serif;
   font-weight: 800;
   font-size: 40px;
@@ -274,7 +276,7 @@ a:hover {
   letter-spacing: 0;
 }
 
-.h4, .faq_main_list_item_active_title_text, .faq_main_list_item_title_text, .testimonials_card_profile_text_name, .getStarted_textBox_title, .service_card_header_text, .header_logo {
+.h4, .ourBlog_footer_textBox_header, .ourBlog_content_post_header, .faq_main_list_item_active_title_text, .faq_main_list_item_title_text, .testimonials_card_profile_text_name, .getStarted_textBox_title, .service_card_header_text, .header_logo {
   font-family: "Epilogue", serif;
   font-weight: 700;
   font-size: 24px;
@@ -283,7 +285,7 @@ a:hover {
   text-transform: capitalize;
 }
 
-.h5, .faq_main_textBox_label, .testimonials_label, .getStarted_textBox_label, .features_textBox_label, .about_main_textBox_label, .portfolio_label, .service_label, .title_textBox_label {
+.h5, .ourBlog_header_textBox_label, .faq_main_textBox_label, .testimonials_label, .getStarted_textBox_label, .features_textBox_label, .about_main_textBox_label, .portfolio_label, .service_label, .title_textBox_label {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 16px;
@@ -299,7 +301,7 @@ a:hover {
   letter-spacing: 0px;
 }
 
-.textBig, .features_textBox_subtitle, .about_card_textBox_description, .about_main_textBox_subtitle {
+.textBig, .ourBlog_content_mainPost_theme, .ourBlog_content_post_theme, .features_textBox_subtitle, .about_card_textBox_description, .about_main_textBox_subtitle {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 20px;
@@ -307,7 +309,7 @@ a:hover {
   letter-spacing: 0;
 }
 
-.text, .faq_main_list_item_active_content, .faq_main_list_item_content, .faq_main_textBox_contact, .faq_main_textBox_description, .testimonials_card_profile_text_company, .testimonials_card_text, .getStarted_description, .features_textBox_list li, .about_main_textBox_description, .portfolio_card_chip, .service_footer_text, .service_card_description, .title_textBox_description, .header_menu, .buttonSecondaryIconLight + label, .service_card_footer_button + label {
+.text, .ourBlog_footer_textBox_description, .ourBlog_content_mainPost_date, .ourBlog_content_post_date, .faq_main_list_item_active_content, .faq_main_list_item_content, .faq_main_textBox_contact, .faq_main_textBox_description, .testimonials_card_profile_text_company, .testimonials_card_text, .getStarted_description, .features_textBox_list li, .about_main_textBox_description, .portfolio_card_chip, .service_footer_text, .service_card_description, .title_textBox_description, .fieldLight, .ourBlog_footer_emailForm_input, .header_menu, .buttonSecondaryIconLight + label, .service_card_footer_button + label {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 16px;
@@ -323,7 +325,7 @@ a:hover {
   letter-spacing: 0;
 }
 
-.buttonText, .buttonPrimaryTextLight, .getStarted_textBox_button, .title_textBox_button, .buttonSecondaryTextLight, .testimonials_button, .about_main_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton {
+.buttonText, .buttonPrimaryTextLight, .getStarted_textBox_button, .title_textBox_button, .buttonSecondaryTextLight, .ourBlog_footer_emailForm_button, .ourBlog_header_button, .testimonials_button, .about_main_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton {
   font-family: "Epilogue", serif;
   font-weight: 900;
   font-size: 14px;
@@ -339,19 +341,19 @@ a:hover {
   cursor: pointer;
 }
 
-.wrapper, .faq_container, .testimonials_container, .getStarted_container, .features_container, .about_container, .portfolio_container, .service_container, .title_container, .header_container {
+.wrapper, .ourBlog_container, .faq_container, .testimonials_container, .getStarted_container, .features_container, .about_container, .portfolio_container, .service_container, .title_container, .header_container {
   width: 1170px;
   margin: 0 auto;
 }
 @media (max-width: 1440px) {
-  .wrapper, .faq_container, .testimonials_container, .getStarted_container, .features_container, .about_container, .portfolio_container, .service_container, .title_container, .header_container {
+  .wrapper, .ourBlog_container, .faq_container, .testimonials_container, .getStarted_container, .features_container, .about_container, .portfolio_container, .service_container, .title_container, .header_container {
     max-width: 1170px;
     width: 100%;
     margin: 0 auto;
   }
 }
 
-.section, .faq, .testimonials, .getStarted, .features, .about, .portfolio, .service, .title, .header {
+.section, .ourBlog, .faq, .testimonials, .getStarted, .features, .about, .portfolio, .service, .title, .header {
   width: 100%;
   margin: 0 auto;
 }
@@ -365,7 +367,7 @@ a:hover {
   text-transform: capitalize;
 }
 
-.h2, .testimonials_title, .features_textBox_title, .about_main_textBox_title, .portfolio_header_title, .service_header {
+.h2, .ourBlog_header_textBox_title, .testimonials_title, .features_textBox_title, .about_main_textBox_title, .portfolio_header_title, .service_header {
   font-family: "Epilogue", serif;
   font-weight: 800;
   font-size: 56px;
@@ -374,7 +376,7 @@ a:hover {
   text-transform: capitalize;
 }
 
-.h3, .faq_main_textBox_title, .about_card_textBox_title, .portfolio_card_title {
+.h3, .ourBlog_content_mainPost_header, .faq_main_textBox_title, .about_card_textBox_title, .portfolio_card_title {
   font-family: "Epilogue", serif;
   font-weight: 800;
   font-size: 40px;
@@ -382,7 +384,7 @@ a:hover {
   letter-spacing: 0;
 }
 
-.h4, .faq_main_list_item_active_title_text, .faq_main_list_item_title_text, .testimonials_card_profile_text_name, .getStarted_textBox_title, .service_card_header_text, .header_logo {
+.h4, .ourBlog_footer_textBox_header, .ourBlog_content_post_header, .faq_main_list_item_active_title_text, .faq_main_list_item_title_text, .testimonials_card_profile_text_name, .getStarted_textBox_title, .service_card_header_text, .header_logo {
   font-family: "Epilogue", serif;
   font-weight: 700;
   font-size: 24px;
@@ -391,7 +393,7 @@ a:hover {
   text-transform: capitalize;
 }
 
-.h5, .faq_main_textBox_label, .testimonials_label, .getStarted_textBox_label, .features_textBox_label, .about_main_textBox_label, .portfolio_label, .service_label, .title_textBox_label {
+.h5, .ourBlog_header_textBox_label, .faq_main_textBox_label, .testimonials_label, .getStarted_textBox_label, .features_textBox_label, .about_main_textBox_label, .portfolio_label, .service_label, .title_textBox_label {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 16px;
@@ -407,7 +409,7 @@ a:hover {
   letter-spacing: 0px;
 }
 
-.textBig, .features_textBox_subtitle, .about_card_textBox_description, .about_main_textBox_subtitle {
+.textBig, .ourBlog_content_mainPost_theme, .ourBlog_content_post_theme, .features_textBox_subtitle, .about_card_textBox_description, .about_main_textBox_subtitle {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 20px;
@@ -415,7 +417,7 @@ a:hover {
   letter-spacing: 0;
 }
 
-.text, .faq_main_list_item_active_content, .faq_main_list_item_content, .faq_main_textBox_contact, .faq_main_textBox_description, .testimonials_card_profile_text_company, .testimonials_card_text, .getStarted_description, .features_textBox_list li, .about_main_textBox_description, .portfolio_card_chip, .service_footer_text, .service_card_description, .title_textBox_description, .header_menu, .buttonSecondaryIconLight + label, .service_card_footer_button + label {
+.text, .ourBlog_footer_textBox_description, .ourBlog_content_mainPost_date, .ourBlog_content_post_date, .faq_main_list_item_active_content, .faq_main_list_item_content, .faq_main_textBox_contact, .faq_main_textBox_description, .testimonials_card_profile_text_company, .testimonials_card_text, .getStarted_description, .features_textBox_list li, .about_main_textBox_description, .portfolio_card_chip, .service_footer_text, .service_card_description, .title_textBox_description, .fieldLight, .ourBlog_footer_emailForm_input, .header_menu, .buttonSecondaryIconLight + label, .service_card_footer_button + label {
   font-family: "Epilogue", serif;
   font-weight: 400;
   font-size: 16px;
@@ -431,7 +433,7 @@ a:hover {
   letter-spacing: 0;
 }
 
-.buttonText, .buttonPrimaryTextLight, .getStarted_textBox_button, .title_textBox_button, .buttonSecondaryTextLight, .testimonials_button, .about_main_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton {
+.buttonText, .buttonPrimaryTextLight, .getStarted_textBox_button, .title_textBox_button, .buttonSecondaryTextLight, .ourBlog_footer_emailForm_button, .ourBlog_header_button, .testimonials_button, .about_main_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton {
   font-family: "Epilogue", serif;
   font-weight: 900;
   font-size: 14px;
@@ -447,26 +449,27 @@ a:hover {
   cursor: pointer;
 }
 
-.buttonPrimaryTextLight, .getStarted_textBox_button, .title_textBox_button, .buttonSecondaryTextLight, .testimonials_button, .about_main_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton {
+.buttonPrimaryTextLight, .getStarted_textBox_button, .title_textBox_button, .buttonSecondaryTextLight, .ourBlog_footer_emailForm_button, .ourBlog_header_button, .testimonials_button, .about_main_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton {
+  height: 48px;
   color: #FFFFFF;
-  padding: 16px 36px;
+  padding: 17px 36px 15px 36px;
   border: none;
   background-color: #EF6D58;
   border-radius: 6px;
   box-sizing: border-box;
   transition: box-shadow 150ms ease-in-out;
 }
-.buttonPrimaryTextLight:hover, .getStarted_textBox_button:hover, .title_textBox_button:hover, .buttonSecondaryTextLight:hover, .testimonials_button:hover, .about_main_textBox_button:hover, .buttonSecondaryTextDark:hover, .portfolio_header_button:hover, .header_contactButton:hover {
+.buttonPrimaryTextLight:hover, .getStarted_textBox_button:hover, .title_textBox_button:hover, .buttonSecondaryTextLight:hover, .ourBlog_footer_emailForm_button:hover, .ourBlog_header_button:hover, .testimonials_button:hover, .about_main_textBox_button:hover, .buttonSecondaryTextDark:hover, .portfolio_header_button:hover, .header_contactButton:hover {
   cursor: pointer;
   box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.3);
 }
 
-.buttonSecondaryTextLight, .testimonials_button, .about_main_textBox_button {
+.buttonSecondaryTextLight, .ourBlog_footer_emailForm_button, .ourBlog_header_button, .testimonials_button, .about_main_textBox_button {
   background-color: #FFFFFF;
   color: #391400;
   box-shadow: 0 3px 9px 0 rgba(57, 20, 0, 0.08);
 }
-.buttonSecondaryTextLight:hover, .testimonials_button:hover, .about_main_textBox_button:hover {
+.buttonSecondaryTextLight:hover, .ourBlog_footer_emailForm_button:hover, .ourBlog_header_button:hover, .testimonials_button:hover, .about_main_textBox_button:hover {
   cursor: pointer;
   box-shadow: 0 2px 6px 0 rgba(57, 20, 0, 0.08);
 }
@@ -521,6 +524,108 @@ a:hover {
   align-items: center;
   max-width: 520px;
 }
+.h1, .title_textBox_header {
+  font-family: "Epilogue", serif;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 80px;
+  letter-spacing: -2px;
+  text-transform: capitalize;
+}
+
+.h2, .ourBlog_header_textBox_title, .testimonials_title, .features_textBox_title, .about_main_textBox_title, .portfolio_header_title, .service_header {
+  font-family: "Epilogue", serif;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+}
+
+.h3, .ourBlog_content_mainPost_header, .faq_main_textBox_title, .about_card_textBox_title, .portfolio_card_title {
+  font-family: "Epilogue", serif;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0;
+}
+
+.h4, .ourBlog_footer_textBox_header, .ourBlog_content_post_header, .faq_main_list_item_active_title_text, .faq_main_list_item_title_text, .testimonials_card_profile_text_name, .getStarted_textBox_title, .service_card_header_text, .header_logo {
+  font-family: "Epilogue", serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-transform: capitalize;
+}
+
+.h5, .ourBlog_header_textBox_label, .faq_main_textBox_label, .testimonials_label, .getStarted_textBox_label, .features_textBox_label, .about_main_textBox_label, .portfolio_label, .service_label, .title_textBox_label {
+  font-family: "Epilogue", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.label {
+  font-family: "Epilogue", serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0px;
+}
+
+.textBig, .ourBlog_content_mainPost_theme, .ourBlog_content_post_theme, .features_textBox_subtitle, .about_card_textBox_description, .about_main_textBox_subtitle {
+  font-family: "Epilogue", serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+
+.text, .ourBlog_footer_textBox_description, .ourBlog_content_mainPost_date, .ourBlog_content_post_date, .faq_main_list_item_active_content, .faq_main_list_item_content, .faq_main_textBox_contact, .faq_main_textBox_description, .testimonials_card_profile_text_company, .testimonials_card_text, .getStarted_description, .features_textBox_list li, .about_main_textBox_description, .portfolio_card_chip, .service_footer_text, .service_card_description, .title_textBox_description, .fieldLight, .ourBlog_footer_emailForm_input, .buttonSecondaryIconLight + label, .service_card_footer_button + label, .header_menu {
+  font-family: "Epilogue", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+
+.textSmall {
+  font-family: "Epilogue", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+.buttonText, .buttonPrimaryTextLight, .getStarted_textBox_button, .title_textBox_button, .buttonSecondaryTextLight, .ourBlog_footer_emailForm_button, .ourBlog_header_button, .testimonials_button, .about_main_textBox_button, .buttonSecondaryTextDark, .portfolio_header_button, .header_contactButton {
+  font-family: "Epilogue", serif;
+  font-weight: 900;
+  font-size: 14px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  cursor: pointer;
+}
+
+.fieldLight, .ourBlog_footer_emailForm_input {
+  box-sizing: border-box;
+  height: 48px;
+  padding: 9px 16px 7px 16px;
+  background-color: white;
+  border: 1px solid #F3D1BF;
+  border-radius: 6px;
+  color: rgba(57, 20, 0, 0.64);
+  text-align: left;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -1036,6 +1141,103 @@ a:hover {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.ourBlog {
+  background-color: #FDF0E9;
+}
+.ourBlog_container {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding: 90px 0 100px 0;
+}
+.ourBlog_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+.ourBlog_header_textBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.ourBlog_header_textBox_label {
+  color: #EF6D58;
+}
+.ourBlog_header_textBox_title {
+  color: #391400;
+}
+.ourBlog_content {
+  display: grid;
+  grid-column-gap: 130px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "mainPost mainPost ." "mainPost mainPost .";
+}
+.ourBlog_content_post, .ourBlog_content_mainPost {
+  display: flex;
+  flex-direction: column;
+}
+.ourBlog_content_post_theme {
+  color: #391400;
+  margin-top: 26px;
+}
+.ourBlog_content_post_header {
+  color: #391400;
+  margin-top: 15px;
+}
+.ourBlog_content_post_date {
+  color: rgba(57, 20, 0, 0.64);
+  margin-top: 15px;
+}
+.ourBlog_content_mainPost {
+  display: flex;
+  grid-area: mainPost;
+}
+.ourBlog_content_mainPost_theme {
+  color: #391400;
+  margin-top: 26px;
+}
+.ourBlog_content_mainPost_header {
+  margin-top: 31px;
+}
+.ourBlog_content_mainPost_date {
+  color: rgba(57, 20, 0, 0.64);
+  margin-top: 12px;
+}
+.ourBlog_divider {
+  height: 1px;
+  background-color: #F3D1BF;
+}
+.ourBlog_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 120px;
+}
+.ourBlog_footer_textBox {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.ourBlog_footer_textBox_header {
+  color: #391400;
+}
+.ourBlog_footer_textBox_description {
+  color: rgba(57, 20, 0, 0.64);
+}
+.ourBlog_footer_emailForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+}
+.ourBlog_footer_emailForm_input {
+  min-width: 370px;
 }
 
 /*# sourceMappingURL=indexStyles.css.map */

@@ -3,6 +3,7 @@
 @import "shared/wrapper";
 @import "shared/buttons";
 @import "shared/header";
+@import "shared/forms";
 
 * {
   margin: 0;
@@ -711,5 +712,139 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+}
+
+.ourBlog {
+  @extend .section;
+  background-color: $lightBgColor;
+
+  &_container {
+    @extend .wrapper;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 90px 0 100px 0;
+  }
+
+  &_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+
+    &_textBox {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      &_label {
+        @extend .h5;
+        color: $textLightAccent;
+      }
+
+      &_title {
+        @extend .h2;
+        color: $textDark;
+      }
+    }
+
+    &_button {
+      @extend .buttonSecondaryTextLight;
+    }
+  }
+
+  &_content {
+    display: grid;
+    grid-column-gap: 130px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "mainPost mainPost ."
+    "mainPost mainPost .";
+
+    &_post {
+      display: flex;
+      flex-direction: column;
+
+      &_theme {
+        @extend .textBig;
+        color: $textDark;
+        margin-top: 26px;
+      }
+
+      &_header {
+        @extend .h4;
+        color: $textDark;
+        margin-top: 15px;
+      }
+
+      &_date {
+        @extend .text;
+        color: $textDarkGray;
+        margin-top: 15px;
+      }
+    }
+
+    &_mainPost {
+      display: flex;
+      grid-area: mainPost;
+      @extend .ourBlog_content_post;
+
+      &_theme {
+        @extend .textBig;
+        color: $textDark;
+        margin-top: 26px;
+      }
+
+      &_header {
+        @extend .h3;
+        margin-top: 31px;
+      }
+
+      &_date {
+        @extend .text;
+        color: $textDarkGray;
+        margin-top: 12px;
+      }
+    }
+  }
+  &_divider {
+    height: 1px;
+    background-color: $borderOnLightBg;
+  }
+  &_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+    &_textBox {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      &_header {
+        @extend .h4;
+        color: $textDark;
+      }
+      &_description {
+        @extend .text;
+        color: $textDarkGray;
+      }
+    }
+    &_emailForm {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 30px;
+      &_input {
+        @extend .fieldLight;
+        min-width: 370px;
+      }
+      &_button {
+        @extend .buttonSecondaryTextLight;
+      }
+    }
   }
 }
